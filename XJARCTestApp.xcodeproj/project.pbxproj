@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468A557C148EC32300D3B5CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468A557B148EC32300D3B5CF /* UIKit.framework */; };
+		468A557E148EC32300D3B5CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468A557D148EC32300D3B5CF /* Foundation.framework */; };
+		468A5580148EC32300D3B5CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468A557F148EC32300D3B5CF /* CoreGraphics.framework */; };
+		468A5586148EC32300D3B5CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 468A5584148EC32300D3B5CF /* InfoPlist.strings */; };
+		468A5588148EC32300D3B5CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A5587148EC32300D3B5CF /* main.m */; };
+		468A558C148EC32300D3B5CF /* XJATAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A558B148EC32300D3B5CF /* XJATAAppDelegate.m */; };
+		468A558F148EC32300D3B5CF /* XJATAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A558E148EC32300D3B5CF /* XJATAMainViewController.m */; };
+		468A5592148EC32300D3B5CF /* XJATAFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A5591148EC32300D3B5CF /* XJATAFlipsideViewController.m */; };
+		468A55A0148EC41100D3B5CF /* XJATAActionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A559F148EC41100D3B5CF /* XJATAActionsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		468A5577148EC32300D3B5CF /* XJARCTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJARCTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		468A557B148EC32300D3B5CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		468A557D148EC32300D3B5CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		468A557F148EC32300D3B5CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		468A5583148EC32300D3B5CF /* XJARCTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XJARCTestApp-Info.plist"; sourceTree = "<group>"; };
+		468A5585148EC32300D3B5CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		468A5587148EC32300D3B5CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		468A5589148EC32300D3B5CF /* XJARCTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XJARCTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		468A558A148EC32300D3B5CF /* XJATAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJATAAppDelegate.h; sourceTree = "<group>"; };
+		468A558B148EC32300D3B5CF /* XJATAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJATAAppDelegate.m; sourceTree = "<group>"; };
+		468A558D148EC32300D3B5CF /* XJATAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJATAMainViewController.h; sourceTree = "<group>"; };
+		468A558E148EC32300D3B5CF /* XJATAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJATAMainViewController.m; sourceTree = "<group>"; };
+		468A5590148EC32300D3B5CF /* XJATAFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJATAFlipsideViewController.h; sourceTree = "<group>"; };
+		468A5591148EC32300D3B5CF /* XJATAFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJATAFlipsideViewController.m; sourceTree = "<group>"; };
+		468A559E148EC41100D3B5CF /* XJATAActionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJATAActionsController.h; sourceTree = "<group>"; };
+		468A559F148EC41100D3B5CF /* XJATAActionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJATAActionsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468A5574148EC32300D3B5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468A557C148EC32300D3B5CF /* UIKit.framework in Frameworks */,
+				468A557E148EC32300D3B5CF /* Foundation.framework in Frameworks */,
+				468A5580148EC32300D3B5CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468A556C148EC32300D3B5CF = {
+			isa = PBXGroup;
+			children = (
+				468A5581148EC32300D3B5CF /* XJARCTestApp */,
+				468A557A148EC32300D3B5CF /* Frameworks */,
+				468A5578148EC32300D3B5CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468A5578148EC32300D3B5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468A5577148EC32300D3B5CF /* XJARCTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468A557A148EC32300D3B5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468A557B148EC32300D3B5CF /* UIKit.framework */,
+				468A557D148EC32300D3B5CF /* Foundation.framework */,
+				468A557F148EC32300D3B5CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		468A5581148EC32300D3B5CF /* XJARCTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				468A558A148EC32300D3B5CF /* XJATAAppDelegate.h */,
+				468A558B148EC32300D3B5CF /* XJATAAppDelegate.m */,
+				468A558D148EC32300D3B5CF /* XJATAMainViewController.h */,
+				468A558E148EC32300D3B5CF /* XJATAMainViewController.m */,
+				468A5590148EC32300D3B5CF /* XJATAFlipsideViewController.h */,
+				468A5591148EC32300D3B5CF /* XJATAFlipsideViewController.m */,
+				468A559E148EC41100D3B5CF /* XJATAActionsController.h */,
+				468A559F148EC41100D3B5CF /* XJATAActionsController.m */,
+				468A5582148EC32300D3B5CF /* Supporting Files */,
+			);
+			path = XJARCTestApp;
+			sourceTree = "<group>";
+		};
+		468A5582148EC32300D3B5CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468A5583148EC32300D3B5CF /* XJARCTestApp-Info.plist */,
+				468A5584148EC32300D3B5CF /* InfoPlist.strings */,
+				468A5587148EC32300D3B5CF /* main.m */,
+				468A5589148EC32300D3B5CF /* XJARCTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468A5576148EC32300D3B5CF /* XJARCTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468A559B148EC32300D3B5CF /* Build configuration list for PBXNativeTarget "XJARCTestApp" */;
+			buildPhases = (
+				468A5573148EC32300D3B5CF /* Sources */,
+				468A5574148EC32300D3B5CF /* Frameworks */,
+				468A5575148EC32300D3B5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJARCTestApp;
+			productName = XJARCTestApp;
+			productReference = 468A5577148EC32300D3B5CF /* XJARCTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468A556E148EC32300D3B5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 468A5571148EC32300D3B5CF /* Build configuration list for PBXProject "XJARCTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 468A556C148EC32300D3B5CF;
+			productRefGroup = 468A5578148EC32300D3B5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468A5576148EC32300D3B5CF /* XJARCTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468A5575148EC32300D3B5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468A5586148EC32300D3B5CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468A5573148EC32300D3B5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468A5588148EC32300D3B5CF /* main.m in Sources */,
+				468A558C148EC32300D3B5CF /* XJATAAppDelegate.m in Sources */,
+				468A558F148EC32300D3B5CF /* XJATAMainViewController.m in Sources */,
+				468A5592148EC32300D3B5CF /* XJATAFlipsideViewController.m in Sources */,
+				468A55A0148EC41100D3B5CF /* XJATAActionsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		468A5584148EC32300D3B5CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468A5585148EC32300D3B5CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468A5599148EC32300D3B5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		468A559A148EC32300D3B5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468A559C148EC32300D3B5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XJARCTestApp/XJARCTestApp-Prefix.pch";
+				INFOPLIST_FILE = "XJARCTestApp/XJARCTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		468A559D148EC32300D3B5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XJARCTestApp/XJARCTestApp-Prefix.pch";
+				INFOPLIST_FILE = "XJARCTestApp/XJARCTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468A5571148EC32300D3B5CF /* Build configuration list for PBXProject "XJARCTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468A5599148EC32300D3B5CF /* Debug */,
+				468A559A148EC32300D3B5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468A559B148EC32300D3B5CF /* Build configuration list for PBXNativeTarget "XJARCTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468A559C148EC32300D3B5CF /* Debug */,
+				468A559D148EC32300D3B5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468A556E148EC32300D3B5CF /* Project object */;
+}
