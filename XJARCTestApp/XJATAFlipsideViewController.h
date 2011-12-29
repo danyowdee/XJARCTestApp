@@ -17,7 +17,7 @@
 
 @interface XJATAFlipsideViewController : UIViewController
 
-@property (unsafe_unretained, nonatomic) IBOutlet id <XJATAFlipsideViewControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet id <XJATAFlipsideViewControllerDelegate> delegate;
 @property (nonatomic, strong)           XJATAActionsController *    actionsController;
 
 - (IBAction)done:(id)sender;

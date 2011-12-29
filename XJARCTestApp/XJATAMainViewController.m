@@ -27,16 +27,6 @@
     [self.view addSubview:flipButton];
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-}
-
 #pragma mark - Flipside View
 
 - (void)flipsideViewControllerDidFinish:(XJATAFlipsideViewController *)controller

@@ -7,6 +7,7 @@
 //
 
 #import "XJATAActionsController.h"
+#import <execinfo.h>
 
 @implementation XJATAActionsController
 
@@ -24,6 +25,11 @@
 {
     NSLog(@"XJATAActionsController:dealloc");
     // STOP OBSERVING NOTIFICATIONS
+
+	void *call_stack[128];
+	int actual_size = backtrace(call_stack, sizeof(call_stack));
+
+	backtrace_symbols_fd(call_stack, actual_size, STDERR_FILENO);
 }
 
 @end
